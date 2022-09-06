@@ -1,0 +1,112 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+font-family: serif;
+font-size: 14px;
+line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: sans-serif;
+}
+a, a:hover{
+text-decoration: none;
+}
+.Login-box{
+width: 600px;
+margin: 30px auto;
+}
+.main-form{
+width: 100%;
+padding: 40px;
+/*background: #eee;*/
+background:lightblue;
+border: 5px solid #000;
+border-radius: 10px;
+}
+.main-form .img{
+width: 100%;
+text-align: center;
+}
+.main-form .img .avater{
+width: 160px;
+height: 160px;
+border-radius: 100%;
+border: 1px solid #000;
+}
+.main-form h1{
+font-size: 32px;
+line-height: 42px;
+color: black;
+text-transform: uppercase;
+font-weight: 300;
+text-align: center;
+margin: 15px 0px;
+}
+.main-form .form-group{
+width: 97%;
+margin: 15px 0px;
+}
+.main-form .form-group label{
+display: block;
+font-size: 14px;
+text-transform: uppercase;
+line-height: 24px;
+font-weight: 400;
+margin: 0px 0px 1px;
+}
+.main-form .form-control{
+width: 100%;
+padding: 6px;
+font-size: 14px;
+color: black;
+border: 1px solid #000;
+}
+.main-form .btn-p{
+padding: 10px 35px;
+border: 1px solid #000;
+background: black;
+color: white;
+font-size: 14px;
+font-weight: 600;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin: 10px 0px 0px;
+}
+.main-form .btn-p:hover{
+cursor: pointer;
+background-color: white;
+color: darkblue;
+}
+/*social icons section*/
+.social-icons{
+width: 100%;
+padding: 40px 0px;
+}
+.social-icons .icons{
+width: 100%;
+display: block;
+text-align: center;
+}
+.social-icons .icons li{
+list-style: none;
+display: inline-block;
+}
+.social-icons .icons li a{
+display: block;
+width: 50px;
+height: 50px;
+font-size: 20px;
+background: lightskyblue;
+margin: 0px 10px;
+line-height: 50px;
+color: #fff;
+border-radius: 100%;
+
+}
+.social-icons .icons li a:hover{
+cursor: pointer;
+background-color: white;
+color: lightskyblue;
+}
